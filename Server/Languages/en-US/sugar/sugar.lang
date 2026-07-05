@@ -1,0 +1,22 @@
+Cooking.syrup = Syrups
+
+MiniCrusher.name = Mini Crusher
+MiniCrusher.desc = Can be used to grind resources.
+
+Centrifuge.name = Centrifuge
+Centrifuge.desc = Spins things around fast. Very very fast.
+
+CrushedLeftovers.name = Crushed Leftovers
+CrushedLeftovers.desc = The brittle leftovers gathered after the crushing process is complete. Surely these can be used for something...
+
+MolassesBottle.name = Molasses
+MolassesBottle.desc = An extremely sweet, thick liquid. Can be used in cooking and baking recipes!
+
+Lore1.name = A Salvaged Note
+Lore1.desc = <b>The Great Sugar Crafters</b>\nIt is said that a long time ago, the Sugar civilization perfected the art of crafting sugar. Their sugar was the sweetest thing in the world, and it was known far and wide, a renowned delicacy in all of Orbis. How did they manage such a feat? How could they craft such perfect sugar? It all starts from a simple, brute act: crushing things. Crushing an ingredient is the first step in the long chain of events that will lead to sugar. It is said that the secret was good materials and craftsmanship. Starting from <b>pure copper ingots</b> and from <b>polished stones</b>, simple crafting materials, the sugar artisans could craft wondrous crushing machines, and thanks to these machines they would then go on and meticolously craft thousands of different kinds of the wonderful sugar that became the flagship product of the Sugar Realm civlization.
+
+WoodenBowl.name = Wooden Bowl
+WoodenBowl.desc = A plain wooden bowl. Just think about how much sugar it could contain!
+
+CookingPot.name = Cooking Pot
+CookingPot.desc = An empty cooking pot. What will you cook by using it?

@@ -1,0 +1,140 @@
+{
+  "TranslationProperties": {
+    "Name": "sugar.sugar.Centrifuge.name",
+    "Description": "sugar.sugar.Centrifuge.desc"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Centrifuge.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "TimeSeconds": 3
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Centrifuge.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Centrifuge.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Processing",
+      "Input": [
+        {
+          "FilterValidIngredients": false
+        }
+      ],
+      "ExtraOutput": {
+        "Outputs": [
+          {
+            "ItemId": "Ingredient_Charcoal"
+          }
+        ],
+        "PerFuelItemsConsumed": 2
+      },
+      "OutputSlotsCount": 4,
+      "LocalOpenSoundEventId": "SFX_Furnace_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Furnace_Bench_Close",
+      "CompletedSoundEventId": "SFX_Furnace_Bench_Processing_Complete",
+      "EndSoundEventId": "SFX_Furnace_Bench_Processing_End",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "Id": "Centrifuge_Bench"
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {},
+        "ProcessingBenchBlock": {}
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Processing": {
+          "Looping": true,
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
+          "CustomModelAnimation": "Blocks/Benches/Centrifuge_Processing.blockyanim"
+        },
+        "ProcessCompleted": {
+          "Light": {
+            "Color": "#B72"
+          },
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/MiniCrusher.png",
+              "Weight": 1
+            }
+          ],
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
+          "Looping": true,
+          "CustomModelAnimation": "Blocks/Benches/Salvage_Processing.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "HitboxType": "Bench_Salvage",
+    "BlockParticleSetId": "Stone",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    },
+    "TextureComputedColor": "#1B1F20",
+    "CustomModelScale": 1.1
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -1,
+      -18
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 8,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

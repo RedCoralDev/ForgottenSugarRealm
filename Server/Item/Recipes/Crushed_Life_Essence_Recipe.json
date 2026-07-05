@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Life_Essence",
+      "Quantity": 10
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Crushed_Life_Essence",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Crushed_Life_Essence",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Crushed_Leftovers",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "MiniCrusher_Bench"
+    }
+  ],
+  "TimeSeconds": 4
+}

@@ -1,0 +1,90 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 0.3
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0.3
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 0.3
+    }
+  },
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": false,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 10,
+  "ParticleLifeSpan": {
+    "Min": 0.2,
+    "Max": 2
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Splash/Snow_Splash_erosion.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "UVOption": "None",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Opacity": 1,
+        "Color": "#e6fffe",
+        "Scale": {
+          "X": {
+            "Min": 0,
+            "Max": 0
+          }
+        }
+      },
+      "50": {
+        "Opacity": 0.612
+      },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 1.35,
+            "Max": 1.35
+          }
+        },
+        "Color": "#ffffff"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 1,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.1,
+          "Max": 0.2
+        }
+      }
+    },
+    "SoftParticles": "Disable"
+  },
+  "SpawnBurst": false,
+  "SpawnRate": {
+    "Min": 0,
+    "Max": 100
+  },
+  "Attractors": [
+    {
+      "LinearAcceleration": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0.5
+      }
+    }
+  ]
+}

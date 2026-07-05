@@ -1,0 +1,10 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Life_Essence_Lollipop_Mace_Particle_Spawner"
+    },
+    {
+      "SpawnerId": "Refined_Sugar_Trail_Particle_Spawner"
+    }
+  ]
+}

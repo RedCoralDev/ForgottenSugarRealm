@@ -1,0 +1,70 @@
+{
+  "TranslationProperties": {
+    "Name": "sugar.life_essence.LifeEssenceDeco.name",
+    "Description": "sugar.life_essence.LifeEssenceDeco.desc"
+  },
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "Items.Potions"
+  ],
+  "Icon": "Icons/ItemsGenerated/Decorative_Life_Essence.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Potion"
+    ]
+  },
+  "Scale": 2,
+  "MaxStack": 10,
+  "DropOnDeath": true,
+  "BlockType": {
+    "InteractionHint": "server.interactionHints.pickup",
+    "BlockParticleSetId": "Crystal",
+    "CustomModel": "Resources/Ingredients/Essence.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ingredients/Essence_Textures/Life_Essence_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 0.3,
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {}
+    },
+    "HitboxType": "Potion",
+    "Material": "Empty",
+    "RandomRotation": "YawStep1",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#72ff00",
+    "BlockSoundSetId": "Glass",
+    "Light": {
+      "Color": "#0a1"
+    }
+  },
+  "Quality": "Legendary"
+}

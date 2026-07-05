@@ -1,0 +1,10 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Crushed_Essence_Particles_Spawner",
+      "PositionOffset": {
+        "Y": 0.3
+      }
+    }
+  ]
+}

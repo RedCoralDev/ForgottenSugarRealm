@@ -1,0 +1,29 @@
+{
+  "Input": [
+    {
+      "ItemId": "Life_Essence_Syrup",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Raw_Life_Essence_Sugar_Bag",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Raw_Life_Essence_Sugar_Bag",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Molasses_Bottle",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Centrifuge_Bench"
+    }
+  ],
+  "TimeSeconds": 6
+}

@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "sugar.life_essence.CrushedLifeEssence.name",
+    "Description": "sugar.life_essence.CrushedLifeEssence.desc"
+  },
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "Items.Potions"
+  ],
+  "Icon": "Icons/ItemsGenerated/Crushed_Life_Essence.png",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -9
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Potion"
+    ]
+  },
+  "Scale": 2,
+  "MaxStack": 30,
+  "DropOnDeath": true,
+  "BlockType": {
+    "InteractionHint": "server.interactionHints.pickup",
+    "BlockParticleSetId": "Ice",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Items/Bowl/Crushed_Blocks_Bowl.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Bowl/Crushed_Green_Essence_Bowl.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 0.8,
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {}
+    },
+    "HitboxType": "Potion",
+    "Material": "Empty",
+    "RandomRotation": "YawStep1",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#2bcf22",
+    "Particles": [
+      {
+        "SystemId": "Crushed_Life_Essence_Particle_System",
+        "Color": "#00ff43"
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Crushed_Ingredient"
+    }
+  ],
+  "Quality": "Common"
+}

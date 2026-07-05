@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "sugar.sugar.WoodenBowl.name",
+    "Description": "sugar.sugar.WoodenBowl.desc"
+  },
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "Items.Potions"
+  ],
+  "Icon": "Icons/ItemsGenerated/Wooden_Bowl.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Sands",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 10
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -9
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Potion"
+    ]
+  },
+  "Scale": 2,
+  "MaxStack": 30,
+  "DropOnDeath": true,
+  "BlockType": {
+    "InteractionHint": "server.interactionHints.pickup",
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Items/Bowl/Bowl.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Bowl/Bowl.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 0.8,
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {}
+    },
+    "HitboxType": "Potion",
+    "Material": "Empty",
+    "RandomRotation": "YawStep1",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#9d722a",
+    "BlockSoundSetId": "Wood"
+  }
+}
